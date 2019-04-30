@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <meta charset="utf-8">
@@ -9,23 +10,302 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/navigation.css">
+  <link rel="stylesheet" href="assets/parallax.css">
+  <link rel="stylesheet" href="assets/comments.css">
+  <link rel="stylesheet" href="assets/form.css">
+  <link rel="stylesheet" href="assets/footer.css">
+  <script src="assets/script.js"></script>
+
 
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h1 id="title">Getting started with Gulp</h1>
-        <p>Gulp is a command line task runner utilizing Node.js platform. It runs custom defined repetitious tasks and manages process automation. The goal of this tutorial is to introduce main concepts of Gulp and see it in action. We will make a quick project to demonstrate some of the most often tasks you'll encounter. By the end of the tutorial you will be able to apply Gulp to your own project, customize it and be much more efficient.</p>
+  <header class="header">
+    <nav>
+        <a  href="#" class="brand-logo2"><img src="dhirencorp.png" width="150" height="95" alt="Dhiren corp" id="logoimage"></a> 
+        
+        <ul class="main-nav">
+          <li>
+            <a href="#">About </a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Solution</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a class="axelbutton" href="#" >Get in touch</a>
+          </li>
+        </ul>
+    </nav>
+  </header>
+
+
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <a class="waves-effect" href="#">About <i class="fa fa-times sidenav-close" style="float:right" aria-hidden="true"></i></a> 
+    </li>
+  
+    <li>
+      <a class="waves-effect" href="#!">Services</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#">Solution</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#">Lectures</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#">Blog</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#">get in touch</a>
+    </li>
+  </ul>
+
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+  <a href="#" class="chaticon"><i class="fa fa-comment-o" aria-hidden="true"></i></a>
+  
+      
+    <div id="index-banner" class="parallax-container">
+        <div class="container2">
+          <br><br>
+
+          <h4 class="center2 topic">This is Demo is made by Dhiren singh to show his UI skills</h4>
+          <div class="row2">
+
+            <div class='column2 services' >
+
+              <label class="serviceitem">
+                <div class='serviceicon '>
+                  <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                </div>
+                <span class="white2">Mutual profit</span>
+              </label>
+
+              <label class="serviceitem">
+                <div class='serviceicon '>
+                  <i class="fa fa-opencart" aria-hidden="true"></i>
+                </div>
+                <span class="white2">Fast Delivery</span>
+              </label>
+
+              <label class="serviceitem">
+                <div class='serviceicon '>
+                  <i class="fa fa-money" aria-hidden="true"></i>
+                </div>
+                <span class="white2">Easy Returns</span>
+              </label>
+              
+            </div>
+
+          </div>
+          
+          <br><br>
+        </div>
+
+      <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+
+
+
+      <div class=" ">
+        <div class="container2">
+          <div class="row2">
+            <div class="column2" style="color:gray;padding: 20px;">
+             
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc
+              nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros.</h3>
+              <h4>Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium
+              eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla
+              imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget
+              dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia Curae;</h4>
+                
+            </div>
+            <div class="column2">
+              <div>
+                <img src="mapofpeople.jpg" alt="Unsplashed background img 2" style="max-width: 100%;">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="container2" style="background: #f4f4f487;padding: 20px;">
+          <div class="row2">
+            <div class="column2 center2">
+              <h3>Testimonials</h3>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="column2">
+              <div class="icon-block">
+
+                <div class="talk-bubble tri-right round btm-left">
+                  <div class="talktext">
+                    <p class="lighttext"><i class="fa fa-quote-left" style="color:#fc4c02;" aria-hidden="true"></i> We did most of the heavy lifting for you to provide a default stylings that incorporate our
+                      custom components. Additionally, we refined animations and transitions to provide a smoother experience for
+                      developers.</p>
+                  </div>
+                </div>
+
+                <div class="display:flex">
+                  <div class="column3">
+                    <div class="center2 avtar"><i class="fa fa-user-circle-o avtaricon" aria-hidden="true"></i></div>
+                  </div>
+                  <div class="column4">
+                    <h5 >Avind saraf<p class="lighttext">Manufacturer, Surat</p>
+                    </h5>
+                  </div>
+                </div>
+
+               
+               
+      
+               
+              </div>
+            </div>
+      
+            <div class="column2">
+              <div class="icon-block">
+              
+                <div class="talk-bubble tri-right round btm-left">
+                  <div class="talktext">
+                    <p class="lighttext"><i class="fa fa-quote-left" style="color:#fc4c02;" aria-hidden="true"></i> We did most of the heavy lifting for you to provide a default stylings that incorporate our
+                      custom components. Additionally, we refined animations and transitions to provide a smoother experience for
+                      developers.</p>
+                  </div>
+                </div>
+
+                <div class="display:flex">
+                  <div class="column3">
+                    <div class="center2 avtar"><i class="fa fa-user-circle-o avtaricon" aria-hidden="true"></i></div>
+                  </div>
+                  <div class="column4">
+                    <h5>Jay Patel<p class="lighttext">Wholeseller, Surat</p>
+                    </h5>
+                  </div>
+                </div>
+              
+              
+              </div>
+            </div>
+      
+            <div class="column2">
+              <div class="icon-block">
+              
+                <div class="talk-bubble tri-right round btm-left">
+                  <div class="talktext">
+                    <p class="lighttext"> <i class="fa fa-quote-left" style="color:#fc4c02;" aria-hidden="true"></i>We did most of the heavy lifting for you to provide a default stylings that incorporate our
+                      custom components. Additionally, we refined animations and transitions to provide a smoother experience for
+                      developers.</p>
+                  </div>
+                </div>
+
+                <div class="display:flex">
+                  <div class="column3">
+                    <div class="center2 avtar"><i class="fa fa-user-circle-o avtaricon" aria-hidden="true"></i></div>
+                  </div>
+                  <div class="column4">
+                    <h5>Subhanga Acharya<p class="lighttext">Retailer, Surat</p>
+                    </h5>
+                  </div>
+                </div>
+            
+              
+              </div>
+            </div>
+          </div>
+      
+      </div>
+
+
+
+
+      <div id="index-banner" class="parallax-container valign-wrapper">
+        <div class="container2">
+          <br><br>
+      
+          <h4 class="center2 topic">Convinced to work with us ?</h4>
+          <h6 class="center2 topic">Company has helped agencies to complete their promises to clients since 2005</h6>
+          <div class="row2">
+      
+            <div class='column2 services'>
+      
+              <input type="text" placeholder="fullname" class="inputbox">
+      
+              <input type="text" placeholder="Email" class="inputbox">
+
+              <input type="text" placeholder="Phone Number" class="inputbox">
+
+            </div>
+          </div>
+
+          <div class="row2">
+            <div class='column2'>
+              <textarea rows="4" cols="36" name="comment" placeholder="Message in Breif" class="inputbox" style="height:unset"></textarea>
+            </div>
+          </div>
+
+          <div class="row2">
+            <div class='column2 center2'>
+              <button class="axelbutton">Submit</button>
+            </div>
+          </div>
+
+      
+          <br><br>
+        </div>
+      
+        <div class="parallax"><img src="background2.jpeg" alt="Unsplashed background img 1"></div>
+      </div>
+      
+
+  
+  
+  <footer>
+    <div style="width:100%;">
+      
+      <div class="row2">
+        <div class="column2">
+          <p class="white2"> &copy; 2017 Company, All right reserved</p>
+        </div>
+
+        <div class="column2">  
+          <ul class="main-nav" style="display:flex !important">
+            <li><a><label> Follow us on :</label></a></li>
+            <li> <a> <i class="fa fa-facebook-square white2" aria-hidden="true"></i> </a></li>
+            <li> <a> <i class="fa fa-linkedin-square white2" aria-hidden="true"></i> </a></li>
+            <li> <a><i class="fa fa-twitter white2" aria-hidden="true"></i> </a></li>
+            <li> <a><i class="fa fa-envelope white2" aria-hidden="true"></i> </a></li>
+          </ul>
+        </div>
+        
       </div>
     </div>
-  </div>
+  </footer>
 
 </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="assets/script.js"></script>
+
 </html>

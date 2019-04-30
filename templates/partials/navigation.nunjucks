@@ -1,0 +1,49 @@
+ <header class="header">
+    <nav>
+      <a href="#" class="brand-logo2"><img src="dhirencorp.png" width="150" height="95" alt="Dhiren corp" id="logoimage"></a>
+
+      <ul class="main-nav">
+        <li>
+          <a href="#">About </a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Solution</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a class="axelbutton" href="#">Get in touch</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <a class="waves-effect" href="#">About <i class="fa fa-times sidenav-close" style="float:right" aria-hidden="true"></i></a>
+    </li>
+
+    <li>
+      <a class="waves-effect" href="#!">Services</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#">Solution</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#">Lectures</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#">Blog</a>
+    </li>
+    <li>
+      <a class="waves-effect" href="#">get in touch</a>
+    </li>
+  </ul>
+
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+  <a href="#" class="chaticon"><i class="fa fa-comment-o" aria-hidden="true"></i></a>

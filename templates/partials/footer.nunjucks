@@ -1,0 +1,21 @@
+  <footer>
+    <div style="width:100%;">
+
+      <div class="row2">
+        <div class="column2">
+          <p class="white2"> &copy; 2017 Company, All right reserved</p>
+        </div>
+
+        <div class="column2">
+          <ul class="main-nav" style="display:flex !important">
+            <li><a><label> Follow us on :</label></a></li>
+            <li> <a> <i class="fa fa-facebook-square white2" aria-hidden="true"></i> </a></li>
+            <li> <a> <i class="fa fa-linkedin-square white2" aria-hidden="true"></i> </a></li>
+            <li> <a><i class="fa fa-twitter white2" aria-hidden="true"></i> </a></li>
+            <li> <a><i class="fa fa-envelope white2" aria-hidden="true"></i> </a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>

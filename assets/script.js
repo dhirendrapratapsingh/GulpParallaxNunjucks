@@ -1,0 +1,2 @@
+
+console.log("source is Main Javascript"),document.addEventListener("DOMContentLoaded",function(){var e=document.querySelectorAll(".parallax");M.Parallax.init(e,0);var a=document.querySelectorAll(".sidenav");M.Sidenav.init(a,!0)});

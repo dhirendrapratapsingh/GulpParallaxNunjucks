@@ -1,0 +1,203 @@
+ <div id="index-banner" class="parallax-container">
+    <div class="container2">
+      <br><br>
+
+      <h4 class="center2 topic">This is Demo is made by Dhiren singh to show his UI skills</h4>
+      <div class="row2">
+
+        <div class='column2 services'>
+
+          <label class="serviceitem">
+            <div class='serviceicon '>
+              <i class="fa fa-handshake-o" aria-hidden="true"></i>
+            </div>
+            <span class="white2">Mutual profit</span>
+          </label>
+
+          <label class="serviceitem">
+            <div class='serviceicon '>
+              <i class="fa fa-opencart" aria-hidden="true"></i>
+            </div>
+            <span class="white2">Fast Delivery</span>
+          </label>
+
+          <label class="serviceitem">
+            <div class='serviceicon '>
+              <i class="fa fa-money" aria-hidden="true"></i>
+            </div>
+            <span class="white2">Easy Returns</span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <br><br>
+    </div>
+
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+
+  <div class=" ">
+    <div class="container2">
+      <div class="row2">
+        <div class="column2" style="color:gray;padding: 20px;">
+
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc
+            nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros.</h3>
+          <h4>Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium
+            eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla
+            imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget
+            dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae;</h4>
+
+        </div>
+        <div class="column2">
+          <div>
+            <img src="mapofpeople.jpg" alt="Unsplashed background img 2" style="max-width: 100%;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container2" style="background: #f4f4f487;padding: 20px;">
+    <div class="row2">
+      <div class="column2 center2">
+        <h3>Testimonials</h3>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="column2">
+        <div class="icon-block">
+
+          <div class="talk-bubble tri-right round btm-left">
+            <div class="talktext">
+              <p class="lighttext"><i class="fa fa-quote-left" style="color:#fc4c02;" aria-hidden="true"></i> We did
+                most of the heavy lifting for you to provide a default stylings that incorporate our
+                custom components. Additionally, we refined animations and transitions to provide a smoother experience
+                for
+                developers.</p>
+            </div>
+          </div>
+
+          <div class="display:flex">
+            <div class="column3">
+              <div class="center2 avtar"><i class="fa fa-user-circle-o avtaricon" aria-hidden="true"></i></div>
+            </div>
+            <div class="column4">
+              <h5>Avind saraf<p class="lighttext">Manufacturer, Surat</p>
+              </h5>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+
+      <div class="column2">
+        <div class="icon-block">
+
+          <div class="talk-bubble tri-right round btm-left">
+            <div class="talktext">
+              <p class="lighttext"><i class="fa fa-quote-left" style="color:#fc4c02;" aria-hidden="true"></i> We did
+                most of the heavy lifting for you to provide a default stylings that incorporate our
+                custom components. Additionally, we refined animations and transitions to provide a smoother experience
+                for
+                developers.</p>
+            </div>
+          </div>
+
+          <div class="display:flex">
+            <div class="column3">
+              <div class="center2 avtar"><i class="fa fa-user-circle-o avtaricon" aria-hidden="true"></i></div>
+            </div>
+            <div class="column4">
+              <h5>Jay Patel<p class="lighttext">Wholeseller, Surat</p>
+              </h5>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="column2">
+        <div class="icon-block">
+
+          <div class="talk-bubble tri-right round btm-left">
+            <div class="talktext">
+              <p class="lighttext"> <i class="fa fa-quote-left" style="color:#fc4c02;" aria-hidden="true"></i>We did
+                most of the heavy lifting for you to provide a default stylings that incorporate our
+                custom components. Additionally, we refined animations and transitions to provide a smoother experience
+                for
+                developers.</p>
+            </div>
+          </div>
+
+          <div class="display:flex">
+            <div class="column3">
+              <div class="center2 avtar"><i class="fa fa-user-circle-o avtaricon" aria-hidden="true"></i></div>
+            </div>
+            <div class="column4">
+              <h5>Subhanga Acharya<p class="lighttext">Retailer, Surat</p>
+              </h5>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <div id="index-banner" class="parallax-container valign-wrapper">
+    <div class="container2">
+      <br><br>
+
+      <h4 class="center2 topic">Convinced to work with us ?</h4>
+      <h6 class="center2 topic">Company has helped agencies to complete their promises to clients since 2005</h6>
+      <div class="row2">
+
+        <div class='column2 services'>
+
+          <input type="text" placeholder="fullname" class="inputbox">
+
+          <input type="text" placeholder="Email" class="inputbox">
+
+          <input type="text" placeholder="Phone Number" class="inputbox">
+
+        </div>
+      </div>
+
+      <div class="row2">
+        <div class='column2'>
+          <textarea rows="4" cols="36" name="comment" placeholder="Message in Breif" class="inputbox" style="height:unset"></textarea>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div class='column2 center2'>
+          <button class="axelbutton">Submit</button>
+        </div>
+      </div>
+
+
+      <br><br>
+    </div>
+
+    <div class="parallax"><img src="background2.jpeg" alt="Unsplashed background img 1"></div>
+  </div>
