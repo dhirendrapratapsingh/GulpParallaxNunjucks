@@ -13,7 +13,7 @@
 
 ### `Steps to create Project & add all dependencies in Ubntu18.04>`
 
-`shortcut way is just download whole project install gulp >go inside project directory > gulp`
+`If you have gulp shortcut way is just download whole project install gulp >go inside project directory > gulp`
 
 `Install nodejs npm npx` <br>
 sudo apt update<br>
@@ -34,13 +34,11 @@ Then open http://localhost:8080/ to see your app.<br>
 1. Implemented Responsive Mobile/Desktop UI as per [mockups](https://drive.google.com/drive/folders/1fCEq4JLqH5taSY21VS5vm3AjkOhOlVeH?usp=sharing)
 2. for Handling responsile layout i have not used any css framework like Bootsrarap,Materialize rather my own layout classes defined in main.css. Matereialialize.js is only used for Parallax methods
 
-# Apart from requirements 
+## Apart from requirements 
 2. Implemented Parallax [effect](https://en.wikipedia.org/wiki/Parallax) of background images for better User Experience
 3. Middle level UI for i-pad views
 4. Sliding Menu for mobiles
 5. Proper template file management using Nuckjunks
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 `Libraries & framework` <br>
 
